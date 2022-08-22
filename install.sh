@@ -23,6 +23,6 @@ else
 	echo ".config already maked"
 fi
 
-stow -v -d ~/.dotfiles -t ~ starship fish
+stow -v -d ~/.dotfiles -t ~ starship fish nvim
 
 echo "Success"
