@@ -1,0 +1,25 @@
+# ~/.config/starship.toml
+
+
+
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = "[🍒 PICKING](bold red)"
+
+[nodejs]
+format = "via [🤖 $version](bold green) "
+
+[docker_context]
+format = "via [🐋 $context](blue bold)"
+
+# ~/.config/starship.toml
+
+[cmd_duration]
+min_time = 500
+format = "time [$duration](bold yellow)"
+
+[time]
+#時間の表示をオンにして12時間表示に
+disabled = false
+format = '[\[ $time \]]($style) '
+
