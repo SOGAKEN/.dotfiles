@@ -859,7 +859,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>RictyNerdFontComplete-Regular 14</string>
+			<string>RictyNerdFontComplete-Regular 15</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -874,6 +874,10 @@
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
+			<key>Scrollback With Status Bar</key>
+			<false/>
+			<key>Scrollback in Alternate Screen</key>
+			<false/>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
