@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "sanemat/font"
+tap "shopify/shopify"
 brew "docker", link: false
 brew "docker-machine"
 brew "fish"
@@ -27,12 +28,14 @@ brew "python@3.9"
 brew "sphinx-doc"
 brew "starship"
 brew "stow"
+brew "tig"
 brew "tmux"
 brew "tree"
 brew "z"
 brew "zsh"
 brew "heroku/brew/heroku"
 brew "sanemat/font/ricty"
+cask "1password-cli"
 cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "inkdrop"
@@ -42,6 +45,7 @@ mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
 mas "BetterSnapTool", id: 417375580
 mas "Craft", id: 1487937127
+mas "Cursor Pro", id: 1447043133
 mas "Day One", id: 1055511498
 mas "Display Menu", id: 549083868
 mas "Dropover", id: 1355679052
