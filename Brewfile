@@ -37,6 +37,8 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "inkdrop"
 cask "notion"
+cask "alfred"
+cask "1password"
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
