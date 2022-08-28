@@ -1,6 +1,24 @@
 # ~/.config/starship.toml
 
+format = """
+$directory\
+$git_branch\
+$git_status\
+$c\
+$elixir\
+$elm\
+$golang\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$docker_context
+$time\
+[ ](fg:#21bfc2)\
 
+"""
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
@@ -21,5 +39,6 @@ format = "time [$duration](bold yellow)"
 [time]
 #時間の表示をオンにして12時間表示に
 disabled = false
-format = '[\[ $time \]]($style) '
-
+style = "bg:#21bfc2 black bold"
+format = '[$time]($style)'
+time_format = '%m/%d(%A) %T'
