@@ -19,6 +19,9 @@ $time\
 [ ](fg:#21bfc2)\
 
 """
+[directory]
+truncation_length = 100
+truncate_to_repo = false
 
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
@@ -41,4 +44,4 @@ format = "time [$duration](bold yellow)"
 disabled = false
 style = "bg:#21bfc2 black bold"
 format = '[$time]($style)'
-time_format = '%m/%d(%A) %T'
+time_format = '%m-%d %T'
