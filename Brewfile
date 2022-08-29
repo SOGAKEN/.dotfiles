@@ -41,6 +41,7 @@ cask "alfred"
 cask "1password"
 cask "karabiner-elements"
 cask "alt-tab"
+cask "cleanmymac"
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
