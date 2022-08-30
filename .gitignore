@@ -1,1 +1,6 @@
 .DS_Store
+fish/.config/fish/conf.d/z.fish
+fish/.config/fish/functions/__z.fish
+fish/.config/fish/functions/__z_add.fish
+fish/.config/fish/functions/__z_clean.fish
+fish/.config/fish/functions/__z_complete.fish
