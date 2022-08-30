@@ -8,8 +8,21 @@ end
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
-alias ll "ls -l"
+alias ll "exa -l -g --icons"
 alias lla "exa -la"
 alias g git
+
+#fisherパッケージoh-my-fish/plugin-pecoの設定
+function fish_user_key_bindings peco
+  bind \cr peco_select_history # Bind for peco select history to Ctrl+R
+  bind \cf peco_change_directory # Bind for peco change directory to Ctrl+F
+
+  # vim-like
+  bind \cl forward-char
+
+  # prevent iterm2 from closing when typing Ctrl-D (EOF)
+  bind \cd delete-char
+end
+
 
 
