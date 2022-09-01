@@ -12,6 +12,7 @@ alias ll "exa -l -g --icons"
 alias lla "exa -la"
 alias g git
 
+# fzf の設定
 set -U FZF_LEGACY_KEYBINDINGS 0
 set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 
@@ -39,4 +40,32 @@ end
 function fish_user_key_bindings
   bind \cg ghq_fzf_repo
 end
+
+
+
+
+     set -g theme_git_default_branches main trunk
+#     set -g theme_display_vagrant yes
+#     set -g theme_display_docker_machine no
+#     set -g theme_display_k8s_context yes
+#     set -g theme_display_k8s_namespace no
+#     set -g theme_display_aws_vault_profile yes
+#     set -g theme_display_hg yes
+#     set -g theme_display_virtualenv no
+#     set -g theme_display_nix no
+#     set -g theme_display_ruby no
+#     set -g theme_display_user ssh
+#     set -g theme_display_hostname ssh
+#     set -g theme_display_sudo_user yes
+#     set -g theme_display_vi no
+#     set -g theme_display_node yes
+#     set -g theme_avoid_ambiguous_glyphs yes
+##     set -g theme_powerline_fonts no
+     set -g theme_nerd_fonts yes
+     set -g theme_show_exit_status yes
+     set -g theme_display_jobs_verbose yes
+     set -g default_user your_normal_user
+     set -g theme_color_scheme dark
+     set -g fish_prompt_pwd_dir_length 10
+     set -g theme_project_dir_length 100
 
