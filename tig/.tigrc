@@ -1,2 +1,4 @@
 #.tigrcの設定内容
 bind refs M ?git merge %(branch)
+# main view の左端にコミットIDを表示する
+set main-view = id date author:email-user commit-title:graph=yes,refs=yes
