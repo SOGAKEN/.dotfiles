@@ -1,0 +1,2 @@
+#.tigrcの設定内容
+bind refs M ?git merge %(branch)
