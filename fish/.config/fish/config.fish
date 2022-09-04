@@ -20,6 +20,8 @@ alias t "tmux new -s"
 set -U FZF_LEGACY_KEYBINDINGS 0
 set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 
+set -g theme_git_default_branches main trunk
+
 
 # ghq + fzf
 function ghq_fzf_repo -d 'Repository search'
