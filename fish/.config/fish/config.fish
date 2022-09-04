@@ -12,6 +12,8 @@ alias ll "exa -l -g --icons"
 alias lla "exa -la"
 alias g git
 alias reshell "exec $SHELL -l"
+alias vim nvim
+alias t "tmux new -s"
 
 
 # fzf の設定
