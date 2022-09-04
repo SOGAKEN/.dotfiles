@@ -879,7 +879,7 @@
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -2926,7 +2926,11 @@
 			<string>/Users/sogaken</string>
 		</dict>
 	</array>
+	<key>OpenArrangementAtStartup</key>
+	<false/>
 	<key>OpenBookmark</key>
+	<false/>
+	<key>OpenNoWindowsAtStartup</key>
 	<false/>
 	<key>PointerActions</key>
 	<dict>
