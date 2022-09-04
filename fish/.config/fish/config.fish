@@ -17,17 +17,6 @@ alias reshell "exec $SHELL -l"
 set -U FZF_LEGACY_KEYBINDINGS 0
 set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 
-#fisherパッケージoh-my-fish/plugin-pecoの設定
-# function fish_user_key_bindings
-#  bind \cr peco_select_history # Bind for peco select history to Ctrl+R
-#  bind \cf peco_change_directory # Bind for peco change directory to Ctrl+F
-
-  # vim-like
-#  bind \cl forward-char
-
-  # prevent iterm2 from closing when typing Ctrl-D (EOF)
-##   bind \cd delete-char
-# end
 
 # ghq + fzf
 function ghq_fzf_repo -d 'Repository search'
