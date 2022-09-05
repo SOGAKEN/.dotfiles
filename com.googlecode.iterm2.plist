@@ -5,7 +5,7 @@
 	<key>AdjustWindowForFontSizeChange</key>
 	<false/>
 	<key>AlternateMouseScroll</key>
-	<false/>
+	<true/>
 	<key>AlternateMouseScrollStringForDown</key>
 	<string></string>
 	<key>Custom Color Presets</key>
