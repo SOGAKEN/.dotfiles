@@ -41,3 +41,5 @@ end
 # bobthefish 設定
 set -U theme_display_date no 
 set -U theme_display_cmd_duration no
+
+set fish_color_command 66FF00
