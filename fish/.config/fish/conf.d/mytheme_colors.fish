@@ -5,7 +5,7 @@ set -l green            66ff00
 set -l dark_green       287480
 set -l red              ff6161
 set -l pink             c600c0
-set -l light_pink       f8bbf6
+set -l light_pink       FB48C4
 set -l orange           c66400
 set -l yellow           fff92f
  
