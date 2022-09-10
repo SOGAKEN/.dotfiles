@@ -14,7 +14,7 @@ alias g git
 alias reshell "exec $SHELL -l"
 alias vim nvim
 alias t "tmux new -s"
-
+alias cc "clear"
 
 # fzf の設定
 set -U FZF_LEGACY_KEYBINDINGS 0
