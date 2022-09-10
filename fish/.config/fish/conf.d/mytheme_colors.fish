@@ -1,7 +1,7 @@
 # 使いたい色を登録しておく
 set -l blue             00bcc6
 set -l light_blue       8ed0ff
-set -l green            00c694
+set -l green            66ff00
 set -l dark_green       287480
 set -l red              ff6161
 set -l pink             c600c0
