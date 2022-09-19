@@ -1,43 +1,17 @@
-require'plugins'
+local impatient_ok, impatient = pcall(require, "impatient")
+if impatient_ok then impatient.enable_profile() end
 
+for _, source in ipairs {
+  "core.utils",
+  "core.options",
+  "core.bootstrap",
+  "core.plugins",
+  "core.autocmds",
+  "core.mappings",
+  "configs.which-key-register",
+} do
+  local status_ok, fault = pcall(require, source)
+  if not status_ok then vim.api.nvim_err_writeln("Failed to load " .. source .. "\n\n" .. fault) end
+end
 
--- 行番号を表示する
-vim.o.number = true
-
-local keymap = vim.keymap
-
-keymap.set('n', 'x', '"_x')
-
--- Increment/decrement
-keymap.set('n', '+', '<C-a>')
-keymap.set('n', '-', '<C-x>')
-
--- Delete a word backwards
-keymap.set('n', 'dw', 'vb"_d')
-
--- Select all
-keymap.set('n', '<C-a>', 'gg<S-v>G')
-
--- jj <esc>
-keymap.set('i','jj','<ESC>',{silent=true})
-
--- Save with root permission (not working for now)
---vim.api.nvim_create_user_command('W', 'w !sudo tee > /dev/null %', {})
-
--- New tab
-keymap.set('n', 'te', ':tabedit')
--- Split window
-keymap.set('n', 'ss', ':split<Return><C-w>w')
-keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
--- Move window
-keymap.set('n', '<Space>', '<C-w>w')
-keymap.set('', 'sh', '<C-w>h')
-keymap.set('', 'sk', '<C-w>k')
-keymap.set('', 'sj', '<C-w>j')
-keymap.set('', 'sl', '<C-w>l')
-
--- Resize window
-keymap.set('n', '<C-w><left>', '<C-w><')
-keymap.set('n', '<C-w><right>', '<C-w>>')
-keymap.set('n', '<C-w><up>', '<C-w>+')
-keymap.set('n', '<C-w><down>', '<C-w>-')
+astronvim.conditional_func(astronvim.user_plugin_opts("polish", nil, false))
