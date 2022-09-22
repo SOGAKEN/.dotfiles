@@ -5,13 +5,14 @@ end
 # starship init fish | source
 
 
+set PATH /opt/homebrew/bin $PATH
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "exa -l -g --icons"
 alias lla "exa -la"
 alias g git
-alias reshell "exec $SHELL -l"
+alias reshell "exec $PATH -l"
 alias vim nvim
 alias t "tmux new -s"
 alias cc "clear"

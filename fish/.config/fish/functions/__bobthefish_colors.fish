@@ -197,7 +197,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -l base08 ab4642 # red
       set -l base09 dc9656 # orange
       set -l base0A f7ca88 # yellow
-      set -l base0B 66ff00 # green
+      set -l base0B a1b56c # green
       set -l base0C 86c1b9 # cyan
       set -l base0D 7cafc2 # blue
       set -l base0E ba8baf # violet
@@ -245,11 +245,11 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -l base04 b8b8b8
       set -l base05 d8d8d8
       set -l base06 e8e8e8
-      set -l base07 111111
-      set -l base08 FA2FBD # red
+      set -l base07 f8f8f8
+      set -l base08 ab4642 # red
       set -l base09 dc9656 # orange
       set -l base0A f7ca88 # yellow
-      set -l base0B 66ff00 # green
+      set -l base0B a1b56c # green
       set -l base0C 86c1b9 # cyan
       set -l base0D 7cafc2 # blue
       set -l base0E ba8baf # violet
@@ -540,7 +540,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -l base08  88C0D0
       set -l base09  81A1C1
       set -l base0A  5E81AC
-      set -l base0B  66ff00
+      set -l base0B  BF616A
       set -l base0C  D08770
       set -l base0D  EBCB8B
       set -l base0E  A3BE8C
