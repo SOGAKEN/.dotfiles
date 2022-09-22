@@ -12,7 +12,6 @@ alias la "ls -A"
 alias ll "exa -l -g --icons"
 alias lla "exa -la"
 alias g git
-alias reshell "exec $PATH -l"
 alias vim nvim
 alias t "tmux new -s"
 alias cc "clear"
