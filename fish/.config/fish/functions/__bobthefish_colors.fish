@@ -249,7 +249,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -l base08 FA2FBD # red
       set -l base09 dc9656 # orange
       set -l base0A f7ca88 # yellow
-      set -l base0B 66ff00 # green
+      set -l base0B 00FFFF # green
       set -l base0C 86c1b9 # cyan
       set -l base0D 7cafc2 # blue
       set -l base0E ba8baf # violet
