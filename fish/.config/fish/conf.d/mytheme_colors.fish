@@ -1,5 +1,5 @@
 # 使いたい色を登録しておく
-set -l blue             00bcc6
+set -l blue             00FFFF
 set -l light_blue       8ed0ff
 set -l green            66ff00
 set -l dark_green       287480
@@ -22,7 +22,8 @@ set -g color_main_light $light_blue
 set -g color_warning    $red
  
 # git color
-set -g color_git_main   $green
+# set -g color_git_main   $green
+set -g color_git_main   $blue
 set -g color_git_dirty  $yellow
  
 # fish color
