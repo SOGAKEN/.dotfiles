@@ -5,7 +5,7 @@ if (not status) then
 end
 
 vim.cmd [[packadd packer.nvim]]
-
+-- Lua:
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use {
@@ -43,8 +43,7 @@ packer.startup(function(use)
   })
   use 'akinsho/nvim-bufferline.lua'
   use 'github/copilot.vim'
-
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
-  use "EdenEast/nightfox.nvim" -- Packer
+  use 'Mofiqul/dracula.nvim'
 end)

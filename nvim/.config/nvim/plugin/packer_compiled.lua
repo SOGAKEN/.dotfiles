@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/git.nvim",
@@ -143,11 +148,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
