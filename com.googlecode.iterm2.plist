@@ -480,7 +480,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>200</integer>
+			<integer>230</integer>
 			<key>Command</key>
 			<string>/opt/homebrew/bin/fish</string>
 			<key>Cursor Color</key>
