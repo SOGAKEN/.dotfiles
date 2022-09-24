@@ -6,6 +6,9 @@ end
 
 
 set PATH /opt/homebrew/bin $PATH
+set -x PYENV_ROOT $HOME/.pyenv
+set -x PATH  $PYENV_ROOT/bin $PATH
+pyenv init - | source
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
