@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/git.nvim",
