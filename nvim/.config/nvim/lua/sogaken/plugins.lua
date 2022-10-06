@@ -47,4 +47,5 @@ packer.startup(function(use)
   use 'dinhhuy258/git.nvim' -- For git blame & browse
   use 'Mofiqul/dracula.nvim'
   use 'mattn/emmet-vim'
+  use 'neoclide/coc.nvim'
 end)
