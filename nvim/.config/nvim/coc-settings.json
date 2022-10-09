@@ -1,24 +1,8 @@
 {
-    "suggest.triggerAfterInsertEnter": true,
-    "suggest.noselect": false,
-    "suggest.minTriggerInputLength": 2,
-    "suggest.acceptSuggestionOnCommitCharacter": true,
-    "suggest.snippetIndicator": " ►",
-    "suggest.enablePreview": true,
-    "coc.preferences.hoverTarget": "float",
-    "coc.preferences.formatOnType": true,
-    "coc.preferences.formatOnSaveFiletypes": [
-        "typescript",
-        "typescriptreact",
-        "javascript",
-        "javascriptreact"
-    ],
-    "tsserver.formatOnType": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.filetypes": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact"
-    ]
+  "tsserver.enable": false,
+  "deno.enable": false,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "prettier.disableLanguages": ["typescript"],
+  "typescript.format.enabled": false
 }
