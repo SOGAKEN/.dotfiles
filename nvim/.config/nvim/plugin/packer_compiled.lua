@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["deno-nvim"] = {
+    loaded = true,
+    path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/deno-nvim",
+    url = "https://github.com/sigmasd/deno-nvim"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/Users/sogaken/.local/share/nvim/site/pack/packer/start/dracula.nvim",

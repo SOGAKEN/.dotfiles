@@ -48,4 +48,6 @@ packer.startup(function(use)
   use 'Mofiqul/dracula.nvim'
   use 'mattn/emmet-vim'
   use 'neoclide/coc.nvim'
+  use 'neovim/nvim-lspconfig'
+  use 'sigmasd/deno-nvim'
 end)

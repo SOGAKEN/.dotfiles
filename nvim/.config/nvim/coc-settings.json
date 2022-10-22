@@ -1,8 +1,11 @@
 {
-  "tsserver.enable": false,
-  "deno.enable": false,
+  "deno.enable": true,
   "deno.lint": true,
   "deno.unstable": true,
-  "prettier.disableLanguages": ["typescript"],
+  "deno.suggest.imports.hosts":{
+    "https://deno.land/":true
+  },
+  "deno.config":"./deno.jsonc",
+  "prettier.disableLanguages": ["typescript","javascript","typescriptreact","javascriptreact","markdown"],
   "typescript.format.enabled": false
 }
